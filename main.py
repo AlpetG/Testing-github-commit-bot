@@ -16,6 +16,6 @@ def makeCommits (days : int):
 
         return days * makeCommits(days - 1)
 
-makeCommits(3000)
+makeCommits(1000)
 
 os.system('git push')
